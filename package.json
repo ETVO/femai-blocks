@@ -1,0 +1,16 @@
+{
+  "name": "femai-blocks",
+  "version": "1.0.0",
+  "description": "WordPress plugin exclusively developed for the **GPR Empreendimentos** website that can be accessed [here](http://gprinvestimentos.com.br/).",
+  "main": "webpack.mix.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/preset-react": "^7.18.6",
+    "laravel-mix": "^6.0.49"
+  }
+}
