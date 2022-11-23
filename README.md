@@ -1,6 +1,8 @@
-# GPR Blocks
+# FEMAI Blocks
 
-WordPress plugin exclusively developed for the **GPR Empreendimentos** website that can be accessed [here](http://gprinvestimentos.com.br/).
+by Estevão Rolim
+
+WordPress plugin exclusively developed for the **FEMAI Empreendimentos** website.
 
 Based on 
 - OOP **PHP** for WordPress

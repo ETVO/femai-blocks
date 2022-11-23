@@ -12,5 +12,18 @@
   "dependencies": {
     "@babel/preset-react": "^7.18.6",
     "laravel-mix": "^6.0.49"
-  }
+  },
+  "devDependencies": {
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.56.1",
+    "sass-loader": "^12.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ETVO/femai-blocks.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ETVO/femai-blocks/issues"
+  },
+  "homepage": "https://github.com/ETVO/femai-blocks#readme"
 }

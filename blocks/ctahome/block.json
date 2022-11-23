@@ -1,0 +1,56 @@
+{
+    "slug": "ctahome",
+    "title": "CTA Home",
+    "desc": "Imagem de fundo, imagem de frente e Botão",
+    "icon": " bi bi-flag-fill",
+    "categ": "femaiblock",
+    "attrs": {
+        "bgImage": {
+            "type": "string"
+        },
+        "fgImage": {
+            "type": "string"
+        },
+        "altText": {
+            "type": "string"
+        },
+        "link": {
+            "type": "string"
+        },
+        "linkText": {
+            "type": "string"
+        }
+    },
+    "edit": [
+        {
+            "tag": "input",
+            "type": "image",
+            "attr": "bgImage",
+            "label": "Imagem de fundo"        
+        },
+        {
+            "tag": "input",
+            "type": "image",
+            "attr": "fgImage",
+            "label": "Imagem de frente"        
+        },
+        {
+            "tag": "input",
+            "type": "text",
+            "attr": "altText",
+            "label": "Texto alternativo"        
+        },
+        {
+            "tag": "input",
+            "type": "url",
+            "attr": "link",
+            "label": "Link do botão"
+        },
+        {
+            "tag": "input",
+            "type": "text",
+            "attr": "linkText",
+            "label": "Texto do botão"
+        }
+    ]
+}

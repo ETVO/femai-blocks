@@ -1,0 +1,23 @@
+.femai-ctahome {
+    padding: 7.5% 0;
+    background-position: 0 0;
+    background-size: cover;
+
+    .foreground {
+        margin-bottom: 3rem;
+
+        img {
+            width: 100%;
+            max-width: calc(275px + 2vw);
+        }
+    }
+
+    .action {
+        a {
+            color: white;
+            font-size: 1.1rem;
+            font-weight: 600;
+            padding: .75rem 1.75rem;
+        }
+    }
+}
