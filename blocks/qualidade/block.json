@@ -1,0 +1,39 @@
+{
+    "slug": "qualidade",
+    "title": "Sistema de Qualidade",
+    "desc": "Título e certificado/programas de qualidade",
+    "icon": " bi-patch-check-fill",
+    "categ": "femaiblock",
+    "usesInner": true,  
+    "attrs": {
+        "title": {
+            "type": "string"
+        }
+    },
+    "edit": [
+        {
+            "tag": "title",
+            "title": "Conteúdo"        
+        },
+        {
+            "tag": "input",
+            "type": "text",
+            "attr": "title",
+            "label": "Título"        
+        },
+        {
+            "tag": "title",
+            "title": "Certificados e programas"        
+        },
+        {
+            "tag": "input",
+            "type": "inner",
+            "blocks": [ "femaiblock/certificado" ]
+        }
+    ],
+    "children": [
+        {
+            "path": "certificado/"
+        }
+    ]
+}

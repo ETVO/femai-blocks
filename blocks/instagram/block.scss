@@ -1,0 +1,27 @@
+.femai-instagram {
+    margin: 2rem 0;
+    padding: 4rem 0 3rem;
+    .container {
+        
+        .title {
+            margin-bottom: 1rem;
+            h2 {
+                font-weight: 600;
+                color: var(--bs-primary);
+                display: inline-block;
+            }
+            .username {
+                background: linear-gradient(89.01deg, #A235B1 0%, #F1653D 100%);
+                color: white;
+                font-weight: 600;
+                padding: .175rem 1rem;
+                font-size: .9rem;
+                border-radius: 6px;
+            }
+        }
+
+        .shortcode {
+
+        }
+    }
+}

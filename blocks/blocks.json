@@ -1,9 +1,33 @@
 {
-    "category": "FEMAI Blocks",
+    "category": "Femai Blocks",
     "startCollapsed": true,
     "blocks": [
         {
             "path": "./ctahome/"
+        },
+        {
+            "path": "./quadro/"
+        },
+        {
+            "path": "./mockup/"
+        },
+        {
+            "path": "./instagram/"
+        },
+        {
+            "path": "./logoheading/"
+        },
+        {
+            "path": "./pageheading/"
+        },
+        {
+            "path": "./historia/"
+        },
+        {
+            "path": "./numeros/"
+        },
+        {
+            "path": "./qualidade/"
         }
     ]
 }

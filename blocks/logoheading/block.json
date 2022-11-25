@@ -1,0 +1,46 @@
+{
+    "slug": "logoheading",
+    "title": "Cabeçalho com Logo",
+    "desc": "Logo, texto e imagem de fundo",
+    "icon": " bi-dash-square",
+    "categ": "femaiblock",
+    "attrs": {
+        "logo": {
+            "type": "string"
+        },
+        "text": {
+            "type": "string"
+        },
+        "bgImage": {
+            "type": "string"
+        }
+    },
+    "edit": [
+        {
+            "tag": "title",
+            "title": "Conteúdo"        
+        },
+        {
+            "tag": "input",
+            "type": "image",
+            "attr": "logo",
+            "label": "Logotipo"        
+        },
+        {
+            "tag": "input",
+            "type": "rich",
+            "attr": "text",
+            "label": "Texto"
+        },
+        {
+            "tag": "title",
+            "title": "Imagem de fundo"        
+        },
+        {
+            "tag": "input",
+            "type": "image",
+            "attr": "bgImage",
+            "label": "Imagem"        
+        }
+    ]
+}

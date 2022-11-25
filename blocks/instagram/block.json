@@ -1,0 +1,46 @@
+{
+    "slug": "instagram",
+    "title": "Posts do Instagram",
+    "desc": "Posts recentes do Instagram",
+    "icon": " bi-instagram",
+    "categ": "femaiblock",
+    "attrs": {
+        "title": {
+            "type": "string"
+        },
+        "username": {
+            "type": "string"
+        },
+        "shortcode": {
+            "type": "string"
+        }
+    },
+    "edit": [
+        {
+            "tag": "title",
+            "title": "Conteúdo"        
+        },
+        {
+            "tag": "input",
+            "type": "text",
+            "attr": "title",
+            "label": "Título"        
+        },
+        {
+            "tag": "input",
+            "type": "text",
+            "attr": "username",
+            "label": "Nome de usuário (Instagram)"
+        },
+        {
+            "tag": "title",
+            "title": "Shortcode"        
+        },
+        {
+            "tag": "input",
+            "type": "text",
+            "attr": "shortcode",
+            "label": "Shortcode"
+        }
+    ]
+}

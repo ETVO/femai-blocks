@@ -1,0 +1,37 @@
+{
+    "slug": "pageheading",
+    "title": "Cabeçalho de Página",
+    "desc": "Título e imagem de fundo",
+    "icon": " bi-dash-square-dotted",
+    "categ": "femaiblock",
+    "attrs": {
+        "title": {
+            "type": "string"
+        },
+        "bgImage": {
+            "type": "string"
+        }
+    },
+    "edit": [
+        {
+            "tag": "title",
+            "title": "Conteúdo"        
+        },
+        {
+            "tag": "input",
+            "type": "text",
+            "attr": "title",
+            "label": "Título"
+        },
+        {
+            "tag": "title",
+            "title": "Imagem de fundo"        
+        },
+        {
+            "tag": "input",
+            "type": "image",
+            "attr": "bgImage",
+            "label": "Imagem"        
+        }
+    ]
+}

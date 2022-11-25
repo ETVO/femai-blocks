@@ -1,0 +1,126 @@
+.femai-quadro {
+    padding: 3rem 0;
+    .container {
+        position: relative;
+
+        .wrap {
+            position: relative;
+            background: linear-gradient(90deg, #1b3a56 -11.07%, #226995 112.72%);
+            border-radius: 0 50px;
+            padding: 3rem 1rem;
+
+            .border-femai {
+                z-index: -1;
+
+                position: absolute;
+                top: 1rem;
+                left: 1rem;
+                bottom: -1rem;
+                right: -1rem;
+
+                $border: 3px;
+                background: white;
+                background-clip: padding-box; /* !importanté */
+                border: solid $border transparent; /* !importanté */
+                border-radius: 0 50px;
+
+                transform-style: preserve-3d;
+
+                &::before {
+                    transform: translateZ(-1px);
+
+                    content: "";
+                    position: absolute;
+                    inset: 0;
+
+                    margin: -$border; /* !importanté */
+                    border-radius: inherit; /* !importanté */
+                    background: linear-gradient(90deg, #1b3a56 -11.07%, #226995 112.72%);
+                }
+            }
+        }
+
+        .content {
+            margin: 0 3rem 1.5rem;
+            flex: 1;
+
+            .v-divider {
+                display: block;
+                height: 200px;
+                width: 2px;
+                background-color: white;
+            }
+
+            .img1,
+            .img2 {
+                width: 33%;
+                max-width: 100%;
+            }
+        }
+
+        .action {
+            margin: 1.5rem auto 0;
+            a {
+                color: white;
+                font-size: 1.1rem;
+                font-weight: 600;
+                padding: 0.75rem 3rem;
+            }
+        }
+    }
+}
+
+@media all and (max-width: 768px) {
+    .femai-quadro {
+        .container {
+            .border-femai {
+                top: .5rem !important;
+                left: .5rem !important;
+                bottom: -.5rem !important;
+                right: -.5rem !important;
+            }
+
+            .content {
+                margin: 0 1rem 1rem;
+
+                .v-divider {
+                    width: 200px;
+                    height: 2px;
+                    margin: 2rem 0;
+                }
+
+                .img1,
+                .img2 {
+                    width: 200px;
+                    max-width: 100%;
+                }
+            }
+
+            .action {
+                margin-top: 2rem;
+                a {
+                    padding: 0.5rem 1rem;
+                }
+            }
+        }
+    }
+}
+
+@media all and (max-width: 576px) {
+    .femai-quadro {
+        .container {
+            .wrap {
+                .border-femai {
+                    display: none;
+                }
+
+                .action {
+                    margin-top: 2rem;
+                    a {
+                        padding: 0.375rem .75rem;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,17 +1,20 @@
 {
-    "slug": "ctahome",
-    "title": "CTA Home",
-    "desc": "Imagem de fundo, imagem de frente e Botão",
-    "icon": " bi bi-flag-fill",
+    "slug": "quadro",
+    "title": "Quadro Femai",
+    "desc": "2 Imagens e Botão",
+    "icon": " bi-square-fill",
     "categ": "femaiblock",
     "attrs": {
-        "bgImage": {
+        "image1": {
             "type": "string"
         },
-        "fgImage": {
+        "alt1": {
             "type": "string"
         },
-        "altText": {
+        "image2": {
+            "type": "string"
+        },
+        "alt2": {
             "type": "string"
         },
         "link": {
@@ -24,29 +27,35 @@
     "edit": [
         {
             "tag": "title",
-            "title": "Imagem de fundo"        
+            "title": "Imagem 1"        
         },
         {
             "tag": "input",
             "type": "image",
-            "attr": "bgImage",
-            "label": "Imagem de fundo"        
-        },
-        {
-            "tag": "title",
-            "title": "Imagem de frente"        
-        },
-        {
-            "tag": "input",
-            "type": "image",
-            "attr": "fgImage",
-            "label": "Imagem de frente"        
+            "attr": "image1",
+            "label": "Imagem 1"        
         },
         {
             "tag": "input",
             "type": "text",
-            "attr": "altText",
-            "label": "Texto alternativo"        
+            "attr": "alt1",
+            "label": "Texto alternativo 1"        
+        },
+        {
+            "tag": "title",
+            "title": "Imagem 2"        
+        },
+        {
+            "tag": "input",
+            "type": "image",
+            "attr": "image2",
+            "label": "Imagem 2"        
+        },
+        {
+            "tag": "input",
+            "type": "text",
+            "attr": "alt2",
+            "label": "Texto alternativo 2"        
         },
         {
             "tag": "title",

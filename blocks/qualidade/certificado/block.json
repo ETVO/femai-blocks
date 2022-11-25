@@ -1,0 +1,31 @@
+{
+    "slug": "certificado",
+    "title": "Certificado",
+    "desc": "Imagem, título e texto",
+    "icon": " bi-patch-check",
+    "categ": "femaiblock",
+    "parent": "qualidade",
+    "attrs": {
+        "image": {
+            "type": "string"
+        },
+        "title": {
+            "type": "string"
+        },
+        "text": {
+            "type": "string"
+        }
+    },
+    "edit": [
+        {
+            "tag": "title",
+            "title": "Conteúdo"        
+        },
+        {
+            "tag": "input",
+            "type": "text",
+            "attr": "title",
+            "label": "Título"        
+        }
+    ]
+}

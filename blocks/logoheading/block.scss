@@ -1,0 +1,46 @@
+.femai-heading {
+    
+    background-size: cover;
+    background-position: center;
+    
+    .container {
+        min-height: 250px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    &.pageheading {
+        .title h1 {
+            font-weight: 500;
+            
+            text-align: center;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+
+            color: #ffffff;
+        }
+    }
+
+    &.logoheading {
+
+        .logo {
+            display: flex;
+
+            img {
+                margin: auto;
+                display: block;
+                width: 250px;
+            }
+        }
+
+        .text {
+            display: flex;
+            color: white;
+            font-size: 1.15rem;
+            p {
+                margin: auto;
+            }
+        }
+    }
+}

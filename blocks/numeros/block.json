@@ -1,0 +1,52 @@
+{
+    "slug": "numeros",
+    "title": "Femai Em Números",
+    "desc": "Imagem, título e texto",
+    "icon": " bi-123",
+    "categ": "femaiblock",
+    "attrs": {
+        "image": {
+            "type": "string"
+        },
+        "title": {
+            "type": "string"
+        },
+        "text": {
+            "type": "string"
+        }
+    },
+    "edit": [
+        {
+            "tag": "title",
+            "title": "Imagem"        
+        },
+        {
+            "tag": "input",
+            "type": "image",
+            "attr": "image",
+            "label": "Imagem"        
+        },
+        {
+            "tag": "input",
+            "type": "text",
+            "attr": "alt",
+            "label": "Texto alternativo"        
+        },
+        {
+            "tag": "title",
+            "title": "Conteúdo"        
+        },
+        {
+            "tag": "input",
+            "type": "text",
+            "attr": "title",
+            "label": "Título"        
+        },
+        {
+            "tag": "input",
+            "type": "rich",
+            "attr": "text",
+            "label": "Texto"
+        }
+    ]
+}

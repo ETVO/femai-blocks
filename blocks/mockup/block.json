@@ -1,0 +1,46 @@
+{
+    "slug": "mockup",
+    "title": "Mockup Celular",
+    "desc": "Título, texto e imagem de mockup celular",
+    "icon": " bi-phone",
+    "categ": "femaiblock",
+    "attrs": {
+        "title": {
+            "type": "string"
+        },
+        "text": {
+            "type": "string"
+        },
+        "mockup": {
+            "type": "string"
+        }
+    },
+    "edit": [
+        {
+            "tag": "title",
+            "title": "Conteúdo"        
+        },
+        {
+            "tag": "input",
+            "type": "text",
+            "attr": "title",
+            "label": "Título"        
+        },
+        {
+            "tag": "input",
+            "type": "rich",
+            "attr": "text",
+            "label": "Texto"
+        },
+        {
+            "tag": "title",
+            "title": "Imagem de mockup"        
+        },
+        {
+            "tag": "input",
+            "type": "image",
+            "attr": "mockup",
+            "label": "Imagem"        
+        }
+    ]
+}

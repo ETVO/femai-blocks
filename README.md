@@ -1,4 +1,4 @@
-# FEMAI Blocks
+# Femai Blocks
 
 by Estevão Rolim
 
