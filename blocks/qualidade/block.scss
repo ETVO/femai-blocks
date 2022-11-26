@@ -1,95 +1,13 @@
-.femai-numeros {
-    padding: 2rem 0 3rem;
-    .wrap {
-        min-height: 400px;
-        position: relative;
+@import './certificado/block.scss';
 
-        border: solid 3px var(--bs-primary);
-        border-radius: 0 100px;
+.femai-qualidade {
 
-        &::after {
-            content: "";
-
-            position: absolute;
-
-            top: -1rem;
-            left: -1rem;
-            bottom: 1rem;
-            right: 1rem;
-
-            height: 100%;
-            width: 100%;
-
-            background: #edf0f2;
-
-            border-radius: 0 100px;
-
-            z-index: -1;
-        }
-
-        .image {
-            img {
-                width: 275px;
-                max-width: 100%;
-                display: block;
-            }
-        }
-
-        .divider {
-            height: 250px;
-            width: 2px;
-            background-color: #1b3a56;
-        }
-
-        .content {
-            
-            .title h2 {
-                font-weight: 600;
-                color: #1b3a56;
-                margin-bottom: 1rem;
-            }
-
-            .text {
-                color: #1b3a56;
-                font-weight: 500;
-                line-height: 1.5;
-            }
-        }
-    }
-}
-
-
-@media all and (max-width: 992px) {
-    .femai-numeros {
-        .wrap {
-
-            padding: 1rem;
-    
-            &::after {
-                top: -.5rem;
-                left: -.5rem;
-                bottom: .5rem;
-                right: .5rem;
-            }
-
-            .image img {
-                width: 250px;
-            }
-        }
-    }
-}
-
-
-@media all and (max-width: 768px) {
-    .femai-numeros {
-        .wrap {
-            padding: 2.5rem 1rem;
-
-            .divider {
-                width: 70%;
-                height: 2px;
-
-            }
+    padding: 3rem 0;
+    .container {
+        .title h2 {
+            font-weight: 600;
+            color: var(--bs-primary);
+            margin-bottom: 2rem;
         }
     }
 }

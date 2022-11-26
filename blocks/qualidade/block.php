@@ -1,16 +1,22 @@
 <?php
 
-function render_block_qualidade($attributes)
+function render_block_qualidade($attributes, $content)
 {
-    $image = $attributes['image'];
-    $alt = $attributes['alt'];
     $title = $attributes['title'];
-    $text = $attributes['text'];
 
     ob_start(); // Start HTML buffering
 ?>
     
-    
+    <div class="femai-qualidade">
+        <div class="container default-femai">
+            <div class="title">
+                <h2 class="fs-3"><?php echo $title; ?></h2>
+            </div>
+            <div class="content row m-0 w-100">
+                <?php echo $content; ?>
+            </div>
+        </div>
+    </div>
 
 <?php
 

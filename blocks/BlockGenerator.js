@@ -71,17 +71,13 @@ import data from "./blocks.json";
 
             block.name = block.categ + "/" + block.slug;
 
-            if (typeof block.parent != "undefined") {
-                block.parentName = (typeof block.parent != "undefined") ? block.categ + '/' + block.parent : '';
-            }
-
             const renderJSX = block.render == "JSX";
 
             registerBlockType(block.name, {
                 title: block.title,
                 description: block.desc,
                 icon: block.icon,
-                parent: block.parentName,
+                parent: block.parent,
                 category: block.categ,
 
                 attributes: block.attrs,

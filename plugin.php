@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Femai Blocks by Imobmark
- * Description: Blocos de layout criados exclusivamente para o site da FEMAI Empreendimentos Imobiliários
+ * Description: Blocos de layout criados exclusivamente para o site da Femai Empreendimentos Imobiliários
  * Author: Estevão Rolim
  * Author URI: https://linkedin.com/in/estevaoprolim
  * Version: 1.0
