@@ -1,0 +1,158 @@
+@import './destaque/block.scss';
+
+.femai-apresenta {
+    padding: 6rem 0;
+    .container {
+        .wrap {
+            position: relative;
+            border: 3px solid #0176a9;
+            border-radius: 0px 20px;
+            padding: 3rem 2rem 3rem 5rem;
+            .content {
+                padding-top: 2rem;
+                padding-right: 3rem;
+
+                .seal {
+                    position: absolute;
+                    top: -75px;
+                    left: 4rem;
+                    img {
+                        width: 150px;
+                        height: 150px;
+                        object-fit: contain;
+                    }
+                }
+
+                .title h2 {
+                    font-weight: 600;
+                    margin-bottom: 0;
+                }
+
+                .linha > * {
+                    display: inline-block;
+                    margin-top: 0.5rem;
+                    color: white;
+                    background-color: #7299b2;
+                    padding: 0.25rem 1rem;
+                    font-size: 0.875rem;
+                    font-weight: 400;
+                    text-transform: uppercase;
+                }
+
+                .text {
+                    margin: 1.5rem 0;
+                    color: #333333;
+                }
+
+                .destaques {
+                    margin: 1.5rem 0;
+                }
+
+                .entrega {
+                    font-weight: 600;
+                    letter-spacing: 0.1em;
+                    text-transform: uppercase;
+
+                    color: #124f74;
+                }
+            }
+            .image {
+                display: flex;
+                margin-right: -100px;
+                img {
+                    border-radius: 0 20px;
+                    min-width: 200px;
+                    min-height: 338px;
+                    max-height: 600px;
+                    object-fit: contain;
+                }
+            }
+        }
+    }
+}
+
+@media all and (min-width: 768.1px) {
+    .femai-apresenta {
+        .container {
+            .wrap {
+                .image {
+                    background-image: none !important;
+                }
+            }
+        }
+    }
+}
+
+@media all and (max-width: 1200px) {
+    .femai-apresenta {
+        .container {
+            .wrap {
+                .image {
+                    margin-right: -50px;
+                }
+            }
+        }
+    }
+}
+
+@media all and (max-width: 992px) {
+    .femai-apresenta {
+        .container {
+            .wrap {
+                padding: 3rem;
+                .content {
+                    .seal {
+                        left: 3rem;
+                    }
+                }
+                .image {
+                    margin-right: -75px;
+                    width: 300px;
+                }
+            }
+        }
+    }
+}
+
+@media all and (max-width: 768px) {
+    .femai-apresenta {
+        .container {
+            .wrap {
+                padding: 2rem 1.5rem;
+                .content {
+                    padding-right: 0;
+
+                    .seal {
+                        left: auto;
+                        right: 2rem;
+                    }
+                }
+                .image {
+                    margin-right: 0;
+                    margin: 2rem auto 0;
+                    
+                    // border-radius: 0 20px;
+                    
+                    // background-size: cover;
+                    // background-repeat: no-repeat;
+                    // background-position: center;
+                    // background-attachment: fixed;
+                    
+                    // min-height: 300px;
+                    width: 100%;
+                    
+                    img {
+                        // display: none;
+                        margin: auto;
+                        min-width: unset;
+                        min-height: unset;
+
+                        width: 300px;
+                        max-width: 100%;
+                        object-fit: cover;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,92 @@
+
+.femai-ctaempre {
+    padding: 6rem 0;
+    .container {
+        .wrap {
+            position: relative;
+            border: 3px solid #0176a9;
+            border-radius: 0px 20px;
+            padding: 3rem 2rem;
+            margin-left: 200px;
+            .content {
+                padding-left: 4rem;
+
+                .title h2 {
+                    font-weight: 600;
+                    margin-bottom: 1rem;
+                }
+
+                .text {
+                    margin-bottom: 1.5rem;
+                    font-size: 1.1rem;
+                    color: #333333;
+                }
+
+                .action a {
+                    color: #fff;
+                    text-transform: uppercase;
+                }
+
+            }
+            .image {
+                display: flex;
+                margin-left: -200px;
+                img {
+                    border-radius: 0 20px;
+                    height: auto;
+                    width: 450px;
+                    max-width: 100%;
+                    object-fit: contain;
+                }
+            }
+        }
+    }
+}
+
+@media all and (max-width: 1200px) {
+    .femai-ctaempre {
+        .container {
+            .wrap {
+                margin-left: 100px;
+                .image {
+                    margin-left: -100px;
+                }
+            }
+        }
+    }
+}
+
+@media all and (max-width: 992px) {
+    .femai-ctaempre {
+        .container {
+            .wrap {
+                padding: 3rem 2rem;
+            }
+        }
+    }
+}
+
+@media all and (max-width: 768px) {
+    .femai-ctaempre {
+        .container {
+            .wrap {
+                padding: 2rem 1.5rem;
+                margin-left: 0;
+                
+                .content {
+                    padding-left: 0;
+                }
+
+                .image {
+                    margin-left: 0;
+                    margin-bottom: 2rem;
+                    width: 100%;
+                    
+                    img {
+                        width: 300px;
+                    }
+                }
+            }
+        }
+    }
+}

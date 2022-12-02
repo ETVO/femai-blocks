@@ -1,0 +1,39 @@
+{
+    "slug": "responsavel",
+    "title": "Responsável",
+    "desc": "Nome e atribuição",
+    "icon": " bi-pencil",
+    "categ": "femaiblock",
+    "parent": ["femaiblock/concepcao"],
+    "attrs": {
+        "name": {
+            "type": "string"
+        },
+        "link": {
+            "type": "string"
+        },
+        "atrib": {
+            "type": "string"
+        }
+    },
+    "edit": [
+        {
+            "tag": "input",
+            "type": "text",
+            "attr": "name",
+            "label": "Nome"        
+        },
+        {
+            "tag": "input",
+            "type": "url",
+            "attr": "link",
+            "label": "Link"        
+        },
+        {
+            "tag": "input",
+            "type": "text",
+            "attr": "atrib",
+            "label": "Atribuição"        
+        }
+    ]
+}

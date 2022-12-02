@@ -4,7 +4,7 @@
     "desc": "Imagem, título e texto",
     "icon": " bi-patch-check",
     "categ": "femaiblock",
-    "parent": "femaiblock/qualidade",
+    "parent": ["femaiblock/qualidade"],
     "attrs": {
         "image": {
             "type": "string"

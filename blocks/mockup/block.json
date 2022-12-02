@@ -2,7 +2,7 @@
     "slug": "mockup",
     "title": "Mockup Celular",
     "desc": "Título, texto e imagem de mockup celular",
-    "icon": " bi-phone",
+    "icon": " bi-phone-fill",
     "categ": "femaiblock",
     "attrs": {
         "title": {

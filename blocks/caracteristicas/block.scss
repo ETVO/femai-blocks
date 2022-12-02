@@ -1,0 +1,14 @@
+@import './caracteristica/block.scss';
+
+.femai-caracteristicas {
+    padding: 5rem 0;
+    background: #EDF0F2;
+    
+    .container {
+        .title h2 {
+            font-weight: 600;
+            color: var(--bs-primary);
+            margin-bottom: 2rem;
+        }
+    }
+}

@@ -2,7 +2,7 @@
     "slug": "quadro",
     "title": "Quadro Femai",
     "desc": "2 Imagens e Botão",
-    "icon": " bi-square-fill",
+    "icon": " bi-exclamation-square-fill",
     "categ": "femaiblock",
     "attrs": {
         "image1": {

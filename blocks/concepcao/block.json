@@ -1,14 +1,12 @@
 {
-    "slug": "pageheading",
-    "title": "Cabeçalho de Página",
-    "desc": "Título e imagem de fundo",
-    "icon": " bi-dash-square-fill",
+    "slug": "concepcao",
+    "title": "Concepção do Empreendimento",
+    "desc": "Título e Responsáveis",
+    "icon": " bi-pencil-fill",
     "categ": "femaiblock",
+    "usesInner": true,  
     "attrs": {
         "title": {
-            "type": "string"
-        },
-        "bgImage": {
             "type": "string"
         }
     },
@@ -21,17 +19,21 @@
             "tag": "input",
             "type": "text",
             "attr": "title",
-            "label": "Título"
+            "label": "Título"        
         },
         {
             "tag": "title",
-            "title": "Imagem de fundo"        
+            "title": "Responsáveis"        
         },
         {
             "tag": "input",
-            "type": "image",
-            "attr": "bgImage",
-            "label": "Imagem"        
+            "type": "inner",
+            "blocks": [ "femaiblock/responsavel" ]
+        }
+    ],
+    "children": [
+        {
+            "path": "responsavel/"
         }
     ]
 }

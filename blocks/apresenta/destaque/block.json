@@ -1,0 +1,30 @@
+{
+    "slug": "destaque",
+    "title": "Destaque",
+    "desc": "Ícone e descrição",
+    "icon": " bi-award",
+    "categ": "femaiblock",
+    "parent": ["femaiblock/apresenta"],
+    "attrs": {
+        "icon": {
+            "type": "string"
+        },
+        "desc": {
+            "type": "string"
+        }
+    },
+    "edit": [
+        {
+            "tag": "input",
+            "type": "image",
+            "attr": "icon",
+            "label": "Ícone"        
+        },
+        {
+            "tag": "input",
+            "type": "rich",
+            "attr": "desc",
+            "label": "Descrição"        
+        }
+    ]
+}

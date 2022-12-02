@@ -1,0 +1,29 @@
+{
+    "slug": "fotos",
+    "title": "Fotos do Empreendimento",
+    "desc": "Título e Galeria de fotos",
+    "icon": " bi-images",
+    "categ": "femaiblock",
+    "attrs": {
+        "title": {
+            "type": "string"
+        },
+        "images": {
+            "type": "array"
+        }
+    },
+    "edit": [
+        {
+            "tag": "input",
+            "type": "text",
+            "attr": "title",
+            "label": "Título"        
+        },
+        {
+            "tag": "input",
+            "type": "gallery",
+            "attr": "images",
+            "label": "Galeria de fotos"        
+        }
+    ]
+}

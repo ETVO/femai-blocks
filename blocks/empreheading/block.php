@@ -1,6 +1,6 @@
 <?php
 
-function render_block_pageheading($attributes)
+function render_block_empreheading($attributes)
 {
     $title = $attributes['title'];
     $bgImage = $attributes['bgImage'];
@@ -8,7 +8,7 @@ function render_block_pageheading($attributes)
     ob_start(); // Start HTML buffering
 ?>
 
-    <div class="femai-heading pageheading" style="background-image: url('<?php echo $bgImage; ?>');">
+    <div class="femai-heading empreheading" style="background-image: url('<?php echo $bgImage; ?>');">
         <div class="container default-femai">
             <div class="title">
                 <h1>

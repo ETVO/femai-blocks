@@ -1,0 +1,60 @@
+{
+    "slug": "ctaempre",
+    "title": "CTA do Empreendimento",
+    "desc": "Texto, Imagem e Botão de Ação",
+    "icon": " bi bi-flag-fill",
+    "categ": "femaiblock",
+    "usesInner": true,
+    "attrs": {
+        "text": {
+            "type": "string"
+        },
+        "image": {
+            "type": "string"
+        },
+        "btnText": {
+            "type": "string"
+        },
+        "btnLink": {
+            "type": "string"
+        }
+    },
+    "edit": [
+        {
+            "tag": "title",
+            "title": "Conteúdo"        
+        },
+        {
+            "tag": "input",
+            "type": "rich",
+            "attr": "text",
+            "label": "Texto"        
+        },
+        {
+            "tag": "title",
+            "title": "Imagem"        
+        },
+        {
+            "tag": "input",
+            "type": "image",
+            "attr": "image",
+            "label": "Imagem"        
+        },
+        {
+            "tag": "title",
+            "title": "Botão"        
+        },
+        {
+            "tag": "input",
+            "type": "url",
+            "attr": "btnLink",
+            "label": "Link do botão"
+        },
+        {
+            "tag": "input",
+            "type": "text",
+            "attr": "btnText",
+            "label": "Texto do botão"
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+@import "./responsavel/block.scss";
+
+.femai-concepcao {
+    padding: 4rem 0;
+
+    .title h2 {
+        font-weight: 600;
+        color: var(--bs-primary);
+        margin-bottom: 2rem;
+    }
+
+    .content {
+        justify-content: space-around;
+        padding: 2rem;
+        background: #edf0f2;
+    }
+}
+
+@media all and (max-width: 576px) {
+    .femai-concepcao {
+        .content {
+            padding: 1rem;
+        }
+    }
+}

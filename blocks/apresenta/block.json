@@ -1,0 +1,70 @@
+{
+    "slug": "apresenta",
+    "title": "Apresentação do Empreendimento",
+    "desc": "Selo, Texto, Imagem, Destaques e Entrega Prevista",
+    "icon": " bi bi-door-open-fill",
+    "categ": "femaiblock",
+    "usesInner": true,
+    "attrs": {
+        "seal": {
+            "type": "string"
+        },
+        "text": {
+            "type": "string"
+        },
+        "image": {
+            "type": "string"
+        },
+        "entrega": {
+            "type": "string"
+        }
+    },
+    "edit": [
+        {
+            "tag": "title",
+            "title": "Imagens"        
+        },
+        {
+            "tag": "input",
+            "type": "image",
+            "attr": "seal",
+            "label": "Selo (topo)"        
+        },
+        {
+            "tag": "input",
+            "type": "image",
+            "attr": "image",
+            "label": "Imagem (direita)"        
+        },
+        {
+            "tag": "title",
+            "title": "Conteúdo"        
+        },
+        {
+            "tag": "input",
+            "type": "rich",
+            "attr": "text",
+            "label": "Texto"        
+        },
+        {
+            "tag": "input",
+            "type": "text",
+            "attr": "entrega",
+            "label": "Texto de Entrega Prevista"        
+        },
+        {
+            "tag": "title",
+            "title": "Destaques"        
+        },
+        {
+            "tag": "input",
+            "type": "inner",
+            "blocks": [ "femaiblock/destaque" ]
+        }
+    ],
+    "children": [
+        {
+            "path": "destaque/"
+        }
+    ]
+}

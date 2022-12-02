@@ -1,0 +1,16 @@
+.femai-porcentagem {
+    margin: 1.25rem 0;
+    > .text {
+        font-weight: 500;
+        font-size: 1.1rem;
+        margin-bottom: .25rem;
+    }
+    .progress {
+        border-radius: 0 10px;
+        height: 25px;
+
+        .progress-bar {
+            background: linear-gradient(88.08deg, #1B3A56 -11.07%, #226995 112.72%);
+        }
+    }
+}

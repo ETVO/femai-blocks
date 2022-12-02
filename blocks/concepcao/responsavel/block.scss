@@ -1,0 +1,42 @@
+$border: #818181 solid 2px;
+
+.femai-responsavel {
+    padding: 2rem 0;
+    text-align: center;
+
+    border-right: $border;
+
+    &:nth-child(3n) {
+        border-right: none;
+    }
+
+    .name h3 {
+        margin-bottom: 0;
+        font-weight: 600;
+        color: #333;
+        text-transform: uppercase;
+
+        font-size: calc(1.275rem + 0.3vw);
+    }
+
+    .name a {
+        &:hover,
+        &:active {
+            h3 {
+                color: #666;
+            }
+        }
+    }
+}
+
+@media all and (max-width: 768px) {
+    .femai-responsavel {
+        padding: 1.5rem 0;
+        border-right: none;
+        border-bottom: $border;
+
+        &:last-child {
+            border-bottom: none;
+        }
+    }
+}

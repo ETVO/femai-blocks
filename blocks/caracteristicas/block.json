@@ -1,0 +1,39 @@
+{
+    "slug": "caracteristicas",
+    "title": "Características do Empreendimento",
+    "desc": "Características",
+    "icon": " bi-check-circle-fill",
+    "categ": "femaiblock",
+    "usesInner": true,  
+    "attrs": {
+        "title": {
+            "type": "string"
+        }
+    },
+    "edit": [
+        {
+            "tag": "title",
+            "title": "Conteúdo"        
+        },
+        {
+            "tag": "input",
+            "type": "text",
+            "attr": "title",
+            "label": "Título"        
+        },
+        {
+            "tag": "title",
+            "title": "Características"        
+        },
+        {
+            "tag": "input",
+            "type": "inner",
+            "blocks": [ "femaiblock/caracteristica" ]
+        }
+    ],
+    "children": [
+        {
+            "path": "caracteristica/"
+        }
+    ]
+}

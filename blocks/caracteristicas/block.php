@@ -1,19 +1,19 @@
 <?php
 
-function render_block_pageheading($attributes)
+function render_block_caracteristicas($attributes, $content)
 {
     $title = $attributes['title'];
-    $bgImage = $attributes['bgImage'];
 
     ob_start(); // Start HTML buffering
 ?>
-
-    <div class="femai-heading pageheading" style="background-image: url('<?php echo $bgImage; ?>');">
+    
+    <div class="femai-caracteristicas">
         <div class="container default-femai">
             <div class="title">
-                <h1>
-                    <?php echo $title; ?>
-                </h1>
+                <h2 class="fs-3 text-uppercase"><?php echo $title; ?></h2>
+            </div>
+            <div class="content row m-0 w-100">
+                <?php echo $content; ?>
             </div>
         </div>
     </div>

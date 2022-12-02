@@ -1,0 +1,21 @@
+{
+    "slug": "caracteristica",
+    "title": "Característica",
+    "desc": "Texto",
+    "icon": " bi-check2-circle",
+    "categ": "femaiblock",
+    "parent": ["femaiblock/caracteristicas"],
+    "attrs": {
+        "text": {
+            "type": "string"
+        }
+    },
+    "edit": [
+        {
+            "tag": "input",
+            "type": "rich",
+            "attr": "text",
+            "label": "Texto"        
+        }
+    ]
+}

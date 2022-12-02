@@ -1,0 +1,38 @@
+{
+    "slug": "localizacao",
+    "title": "Localização do Empreendimento",
+    "desc": "Título, Endereço e Referências",
+    "icon": " bi-geo-alt-fill",
+    "categ": "femaiblock",
+    "attrs": {
+        "title": {
+            "type": "string"
+        },
+        "address": {
+            "type": "string"
+        },
+        "references": {
+            "type": "string"
+        }
+    },
+    "edit": [
+        {
+            "tag": "input",
+            "type": "text",
+            "attr": "title",
+            "label": "Título"        
+        },
+        {
+            "tag": "input",
+            "type": "rich",
+            "attr": "address",
+            "label": "Endereço"
+        },
+        {
+            "tag": "input",
+            "type": "rich",
+            "attr": "references",
+            "label": "Referências"        
+        }
+    ]
+}

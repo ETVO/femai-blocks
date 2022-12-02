@@ -1,0 +1,44 @@
+{
+    "slug": "andamento",
+    "title": "Andamento do Empreendimento",
+    "desc": "Título, Imagem e Porcentagens",
+    "icon": " bi-bar-chart-line-fill",
+    "categ": "femaiblock",
+    "usesInner": true,  
+    "attrs": {
+        "title": {
+            "type": "string"
+        },
+        "image": {
+            "type": "string"
+        }
+    },
+    "edit": [
+        {
+            "tag": "input",
+            "type": "text",
+            "attr": "title",
+            "label": "Título"        
+        },
+        {
+            "tag": "input",
+            "type": "image",
+            "attr": "image",
+            "label": "Imagem"        
+        },
+        {
+            "tag": "title",
+            "title": "Porcentagens"        
+        },
+        {
+            "tag": "input",
+            "type": "inner",
+            "blocks": [ "femaiblock/porcentagem" ]
+        }
+    ],
+    "children": [
+        {
+            "path": "porcentagem/"
+        }
+    ]
+}

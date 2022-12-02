@@ -1,0 +1,135 @@
+$control-icon-size: 1.5rem;
+
+.femai-fotos {
+    padding: 5rem 0;
+    background: #edf0f2;
+
+    .title h2 {
+        font-weight: 600;
+        color: var(--bs-primary);
+        margin-bottom: 2rem;
+    }
+
+    .carousel {
+        margin: 0 -0.5rem;
+        &-item {
+            .image {
+                padding: 0 0.275rem;
+                img {
+                    display: block;
+                    width: 100%;
+                    margin: auto;
+                }
+            }
+        }
+
+        .carousel-control {
+            &-prev {
+                left: calc(-1 * $control-icon-size * 1.15);
+            }
+            &-next {
+                right: calc(-1 * $control-icon-size * 1.15);
+            }
+
+            &-prev,
+            &-next {
+                opacity: 1;
+
+                width: $control-icon-size;
+
+                .carousel-control-next-icon,
+                .carousel-control-prev-icon {
+                    border-radius: 50%;
+                    margin: auto;
+
+                    width: unset;
+                    height: unset;
+
+                    font-size: $control-icon-size;
+
+                    color: #6a6a6a !important;
+                    font-family: bootstrap-icons;
+                    font-weight: bolder;
+
+                    background-image: none;
+
+                    display: flex;
+
+                    transition: font-size 0.3s;
+                }
+
+                &:hover,
+                &:focus,
+                &:active {
+                    opacity: 1;
+
+                    .carousel-control-next-icon,
+                    .carousel-control-prev-icon {
+                        font-size: calc($control-icon-size * 1.25);
+                    }
+                }
+
+                .carousel-control-prev-icon::before {
+                    content: "\f284";
+                    margin: auto;
+                }
+
+                .carousel-control-next-icon::before {
+                    content: "\f285";
+                    margin: auto;
+                }
+            }
+        }
+    }
+}
+
+@media all and (max-width: 1200px) {
+    .femai-fotos {
+        .carousel {
+            .carousel-item {
+                .image {
+                    padding: 0 .25rem;
+                }
+            }
+
+            .carousel-control {
+                &-prev {
+                    left: 0;
+                    background: linear-gradient(90deg, rgba(#000, .4), rgba(#000, 0));
+                }
+                &-next {
+                    right: 0;
+                    background: linear-gradient(-90deg, rgba(#000, .4), rgba(#000, 0));
+                }
+
+                &-prev,
+                &-next {
+
+                    width: calc($control-icon-size * 2);
+                    opacity: .7;
+                    
+                    .carousel-control-next-icon,
+                    .carousel-control-prev-icon {
+                        border-radius: 50%;
+                        margin: auto;
+
+                        width: unset;
+                        height: unset;
+
+                        font-size: $control-icon-size;
+
+                        color: #fff !important;
+                        font-family: bootstrap-icons;
+                        font-weight: bolder;
+
+                        background-image: none;
+
+                        display: flex;
+
+                        transition: font-size 0.3s;
+                    }
+                }
+            }
+        }
+    }
+}

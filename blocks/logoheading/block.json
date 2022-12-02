@@ -2,7 +2,7 @@
     "slug": "logoheading",
     "title": "Cabeçalho com Logo",
     "desc": "Logo, texto e imagem de fundo",
-    "icon": " bi-dash-square",
+    "icon": " bi-dash-square-fill",
     "categ": "femaiblock",
     "attrs": {
         "logo": {

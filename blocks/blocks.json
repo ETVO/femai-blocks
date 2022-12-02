@@ -21,6 +21,9 @@
             "path": "./pageheading/"
         },
         {
+            "path": "./empreheading/"
+        },
+        {
             "path": "./historia/"
         },
         {
@@ -28,6 +31,30 @@
         },
         {
             "path": "./qualidade/"
+        },
+        {
+            "path": "./apresenta/"
+        },
+        {
+            "path": "./caracteristicas/"
+        },
+        {
+            "path": "./imagem/"
+        },
+        {
+            "path": "./concepcao/"
+        },
+        {
+            "path": "./fotos/"
+        },
+        {
+            "path": "./ctaempre/"
+        },
+        {
+            "path": "./localizacao/"
+        },
+        {
+            "path": "./andamento/"
         }
     ]
 }

@@ -1,0 +1,34 @@
+@import './porcentagem/block.scss';
+
+.femai-andamento {
+    padding: 4rem 0;
+    
+    .container {
+        .title h2 {
+            font-weight: 600;
+            color: var(--bs-primary);
+            margin-bottom: 2rem;
+        }
+
+        .wrap {
+            .image {
+                img {
+                    display: block;
+                    width: 100%;
+                }
+            }
+            .content {
+                margin: auto;
+                padding-left: 3rem;
+            }
+        }
+    }
+}
+
+@media all and (max-width: 768px) {
+    .femai-andamento {
+        .container .wrap .content{
+            padding: 1.5rem 1rem;
+        }
+    }
+}

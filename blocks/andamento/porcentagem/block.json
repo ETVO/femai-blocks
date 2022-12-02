@@ -1,0 +1,31 @@
+{
+    "slug": "porcentagem",
+    "title": "Porcentagem",
+    "desc": "Descrição e Porcentagem",
+    "icon": " bi-percent",
+    "categ": "femaiblock",
+    "parent": ["femaiblock/andamento"],
+    "attrs": {
+        "desc": {
+            "type": "string"
+        },
+        "percent": {
+            "type": "string"
+        }
+    },
+    "edit": [
+        {
+            "tag": "input",
+            "type": "rich",
+            "attr": "desc",
+            "label": "Descrição"        
+        },
+        {
+            "tag": "input",
+            "type": "number",
+            "attr": "percent",
+            "label": "Porcentagem",        
+            "help": "Apenas valor numérico."        
+        }
+    ]
+}
